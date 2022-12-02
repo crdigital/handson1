@@ -1,0 +1,173 @@
+#hero-header {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-header article {
+    margin: 150px;
+    margin-top: 70px;
+}
+
+#hero-header article div {
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+#hero-header article div h1 {
+    margin-left: 70px;
+    font-weight: 500;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    color: #FF4081;
+}
+
+#hero-header article div span {
+    width: 300px;
+    font-weight: 300;
+    margin-left: 350px;
+    margin-top: 5px;
+    font-size: clamp(0.4em, 0.4em + 0.4vw, 0.55em) !important;
+    color: #9D9D9D;
+}
+
+#hero-header article p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hero-header article span {
+    font-size: clamp(1em, 1em + 1vw, 1.5em) !important;
+    font-weight: 700;
+    color: #419488;
+}
+
+.thumbnail {
+    margin-top: 70px;
+    width: 98%;
+    height: 465px;
+    min-height: fit-content;
+    background: #C4C4C4;
+}
+
+/* fim hero-header */
+
+/* nossos cursos */
+#nossos-cursos {
+    background-color: #F7F7F7;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo h2 {
+    margin-top: 60px;
+}
+
+#titulo h2 {
+    width: 528px;
+    height: 57px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+}
+
+#cursos {
+    display: flex;
+    justify-content: center;
+}
+
+#cursos img {
+    width: 288px;
+    height: 270px;
+}
+
+#cursos article {
+    margin: 25px;
+    padding-left: 15px;
+}
+
+#cursos h3 {
+    width: 344px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#cursos p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#cursos button {
+    width: 233px;
+    height: 51px;
+    background: #FF4081;
+    border: none;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+/* fim nossos cursos */
+
+@media (max-width:1200px) {
+    #titulo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 25px;
+    }
+
+    #titulo h2{        
+        margin-bottom: 50px;
+    }
+
+    #cursos {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 25px;
+    }
+}
+
+
+@media (max-width: 959px) {
+    #hero-header article div span {
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #hero-header {
+        margin-left: 90px;
+    }
+
+    .thumbnail {
+        width: 80%;
+        height: 365px;
+    }
+
+    #hero-header p {
+        width: 80%;
+    }
+
+    #hero-header article span {
+        width: 80%;
+    }
+}

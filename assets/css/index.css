@@ -1,0 +1,401 @@
+/* main index*/
+
+/* #destaque and .container */
+#destaque .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 125px 206px 66px;
+  }
+  
+  #destaque .container div {
+    display: flex;
+    flex-direction: column;  
+    font-size: 27px;
+    line-height: 31px;
+  }
+  
+  #destaque .container div h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+  
+    color: #FF4081;
+    max-width: 488px;
+    margin-bottom: 19px;
+  }
+  
+  #destaque .container div span {
+    color: #555555;
+    max-width: 462px;
+    margin-bottom: 38px;
+  }
+  
+  #destaque .container div a {
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    width: fit-content;
+    color: #FF4081;
+    padding: 8px 26px;
+    text-decoration: none;
+  }
+
+  
+/* #cursos */
+#cursos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    padding: 60px 0 0 60px;
+}
+
+#cursos img {
+    width: 288px;
+    height: 270px;
+}
+
+#cursos article {
+    margin: 25px;
+    padding-left: 15px;
+}
+
+#cursos h3 {
+    width: 344px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#cursos p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#cursos a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fdfdfd;
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #FF4081;
+    cursor: pointer;
+    width: fit-content;
+    padding: 8px 26px;
+    height: 51px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+/* fim #cursos */
+
+/* #sobre */
+#sobre {
+    margin: 150px;
+    margin-top: 100px;
+}
+
+#sobre h2 {
+    width: 478px;
+    height: 50px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+#sobre p {
+    width: 330px;
+    height: 70px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#sobre article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#sobre div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/* fim #sobre */
+
+/* #mais */
+#mais {
+    padding: 100px;
+    background-color: #E5E5E5;
+}
+
+#mais h2 {
+    width: 530px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.more-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.thumbnail {
+    width: 319px;
+    height: 193px;
+    background-color: #c4c4c4;
+}
+
+.more-content p {
+    width: 319px;
+    height: 114px;
+    margin-top: 20px;
+}
+
+.more-content span {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+.botao-posts {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botao-posts a {
+    font-size: 27px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FF4081;
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #E5E5E5;
+    cursor: pointer;
+    width: fit-content;
+    padding: 8px 26px;
+    height: 51px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+/* fim #mais */
+
+/* @media */
+@media (max-width: 1350px) {
+    #destaque .container {
+        padding: 125px 186px 66px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #destaque .container {
+        padding: 125px 166px 66px;
+    }
+}
+
+@media (max-width: 1250px) {
+    #destaque .container {
+        padding: 125px 100px 66px;
+    }
+
+    #cursos img {
+        width: 208px;
+        height: 198px;
+    }
+
+    #cursos h3 {
+        width: 244px;
+    }
+
+    #sobre{
+        margin-left: 100px;
+    }
+
+    #sobre p {
+        width: 300px;
+    }
+
+    #mais .more-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mais .more-content div {
+        margin-bottom: 20px;
+    }
+
+    #mais h2{
+        margin-left: 80px;
+    }
+   
+    .botao-posts a {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1125px) {
+    #destaque .container {
+        padding: 125px 60px 66px;
+    }   
+
+    #sobre{
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #destaque .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #destaque .container img {
+        margin-bottom: 20px;
+    }
+
+    #destaque .container a {
+        margin-left: 0px;
+    }
+
+    /* #cursos */
+    #cursos {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    #cursos article img {
+        width: 258px;
+        height: 240;
+        margin-top: 50px;
+    }
+
+    #cursos article h3,
+    #cursos article p,
+    #cursos article a {
+        width: 258px;
+        margin-left: 20px;
+    }
+
+    /* #sobre */
+    #sobre{
+        margin-left: 80px;
+    }
+    #sobre article, #sobre div {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+
+    #sobre img {
+        margin-bottom: 25px;
+    }
+
+    #sobre h2 {
+        width: 458px;
+        height: 40px;
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 740px){
+    #mais h2{
+        font-size: 20px;
+    }
+
+    #sobre{
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 670px) {
+    
+    #destaque .container img {
+        width: 301px;
+        height: 311px;
+    }
+
+    #cursos{
+        margin-left: 10px;
+    }
+
+    #sobre{
+        margin-left: 40px;
+    }
+
+    #sobre h2 {
+        width: 444px;
+        margin-left: 10px;
+    }
+
+    #mais{
+        padding: 50px;
+    }
+
+    #mais h2{
+        margin-left: 70px;
+        padding-left: 60px;
+    }
+
+    
+    .botao-posts a{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    #cursos{
+        margin-left: 10px;
+    }
+
+    #sobre{
+        margin-left: 20px;
+    }
+
+    #sobre h2 {
+        width: 444px;
+        margin-left: 10px;
+    }
+
+    #mais{
+        padding: 25px;
+    }
+
+    #mais h2{
+        margin-left: 30px;
+        padding-left: 40px;
+    }
+}
+
+/* fim main index */

@@ -1,0 +1,226 @@
+/* main cursos */
+#curso {
+    margin: 100px;
+    margin-top: 70px;
+}
+
+#curso article img{
+    width: 380px;
+    height: 381px;
+}
+
+#curso article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    margin-top: 80px;
+    width: 929px;
+    height: 381px;
+}
+
+#curso article h2 {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 350px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF4081;
+}
+
+#curso article p {
+    margin-top: 30px;
+    width: 400px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+#videos {
+    background-color: #F7F7F7;
+}
+
+#videos article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; 
+}
+
+.retangulo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 462px;
+    height: 261px;
+    border: 2px solid #c4c4c4;
+    margin: 100px;
+}
+
+.circulo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #c4c4c4;
+    border-radius: 50%;
+}
+
+.quadrado {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 56px;
+    height: 53px;
+
+    border: 0 solid #000000;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid #c4c4c4;
+    border-bottom: 15px solid transparent;
+}
+
+#videos article #content {
+    margin: 100px;
+    margin-left: 0;
+}
+
+#videos h2 {
+    width: 512px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin-bottom: 20px;
+}
+
+.texto {
+    width: 501px;
+    height: 195px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+.texto p {
+    margin: 20px;
+    margin-left: 0;
+}
+
+hr {
+    width: 1244px;
+    height: 3px;
+    background: #C4C4C4;
+}
+
+@media (max-width:1270px){
+    hr{
+        width: 700px;
+    }
+}
+
+
+@media (max-width:1100px){   
+
+    .retangulo {
+        width: 362px;
+        height: 261px;
+        margin: 80px;
+    }
+}
+
+
+@media (max-width:1050px) {
+    #curso article {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        width: 519px;
+        margin-top: 300px;
+
+    }
+
+    #videos article {
+        flex-direction: column;        
+        align-items: center;
+        justify-content: flex-start;    
+    }
+
+    #videos article #content {
+        margin: 0px;
+    }
+    
+    #videos h2 {
+        width: 412px;
+        height: 40px;
+        margin-bottom: 20px;
+        margin-left: 65px;
+    }
+    
+    .texto {
+        width: 401px;
+        height: 195px;  
+        line-height: 1.2;        
+        margin-bottom: 50px;
+    }
+    
+    .texto p {
+        margin: 20px;
+        margin-left: 0px;
+    }
+    
+}
+
+@media (max-width:830px) {
+    #curso article p {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .texto{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:770px) {
+    #curso article img {
+        width: 280px;
+        height: 281px;
+    }
+
+    #curso article h2 {
+        width: 280px;
+        height: 40px;
+        font-weight: 700;
+        font-size: 35px;
+        margin-left: 60px;
+    }
+
+    #curso article p {
+        width: 280px;
+        font-size: 16px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width:720px){
+    hr{ 
+        width: 450px;
+        margin-left: 30px;
+    }
+}
+/* fim curso  */

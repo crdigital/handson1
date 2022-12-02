@@ -1,0 +1,102 @@
+/* main cursos */
+#cursos {
+    min-height: 400px;
+    margin: 50px;
+    margin-top: 70px;
+}
+
+#cursos h1 {
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+article h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 512px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF4081;
+}
+
+article img{
+    width: 380px; 
+    height: 381px;
+}
+
+article p {
+    width: 424px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+article a {
+    margin-top: 30px;
+    padding: 12px 26px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border: none;
+    border-radius: 62px;
+}
+
+hr{
+    margin-top: 30px;
+    background:#C4C4C4;
+    height: 2px;
+}
+
+/* @media */
+@media (max-width: 950px) {
+    #cursos h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    
+    article {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    article h2 {
+        width: 312px;
+        font-size: 25px;
+    }
+    
+    article img{
+        width: 280px;
+        height: 281px;
+        margin-top: 20px;
+    }
+    
+    article p {
+        width: 300px;
+        height: 105px;
+        margin-bottom: 150px;
+        line-height: 1.2;
+    }    
+
+    article a{
+        margin-left: 30px;
+    }
+
+}
+
+/* fim main cursos */
